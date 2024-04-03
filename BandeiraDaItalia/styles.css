@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.flag{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.green{
+    flex: 1;
+    background-color: green;
+}
+
+.white{
+    flex: 1;
+    background-color: white;
+}
+
+.red{
+    flex: 1;
+    background-color: red;
+}
