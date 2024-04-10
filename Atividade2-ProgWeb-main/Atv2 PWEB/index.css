@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; /* Vermelho Internacional */
+    color: #000; /* Preto para texto */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+nav {
+    background-color: #fff; /* Branco */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #000; /* Preto */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo do bloco de citação */
+blockquote {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #fff;
+    border-left: 5px solid #000; /* Preto */
+    border-radius: 10px;
+}
+
+blockquote p {
+    font-style: italic;
+    margin: 0;
+}
+
+/* Estilo da seção principal */
+section {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section a {
+    color: #007bff; /* Azul */
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000; /* Preto */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da navegação no rodapé */
+footer nav a {
+    color: #000; /* Preto */
+}
