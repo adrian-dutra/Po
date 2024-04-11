@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; 
+    color: #000000; 
+}
+
+aside {
+    text-align: center;
+}
+
+aside img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+nav {
+    background-color: #FF0000; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    background-color: #FFFFFF; 
+    color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #CC0000; 
+}
+
